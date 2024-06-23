@@ -1,0 +1,4 @@
+kafka:
+  servers: ${spring.embedded.kafka.brokers}
+  reset: earliest
+  group-id: test_group_id

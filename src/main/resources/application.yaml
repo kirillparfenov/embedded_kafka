@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: embeddedKafka
+
+server:
+  port: 6666
+
+kafka:
+  servers: localhost:9092
+  reset: earliest
+  group-id: parfenov_dev
