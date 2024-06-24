@@ -40,9 +40,7 @@ import static org.mockito.Mockito.verify;
         topics = Topics.TEST_TOPIC
 )
 @SpringBootTest(classes = {
-        Consumer.class,
-        KafkaConfig.class,
-        ObjectMapper.class
+        KafkaConfig.class
 })
 @EnableConfigurationProperties({
         KafkaProperties.class
